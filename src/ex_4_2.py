@@ -6,7 +6,7 @@ def logstamp_to_datetime(datestr):
     """
     string of log timestamps to datetime objecthis function transforns a 
     """
-    expected_foramt = "%Y-%m-%dT%H:%M:%S"
+    expected_format = "%Y-%m-%dT%H:%M:%S"
     dt_obj = datetime.strptime(datestr,expected_format)
     return dt_obj
 
